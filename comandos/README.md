@@ -5,6 +5,7 @@ python3 -m venv venv
 . venv/bin/activate
 pip install django
 django-admin startproject project .
+python3 manage.py startapp contact
 ...
 
 Configure o git
@@ -28,3 +29,4 @@ cat ~/.ssh/sergioshoji_rsa.pub
 No github copiar a CHAVE-SSH
 git remote rm origin
 git remote add origin CHAVE-SSH
+git push origin main -u
