@@ -18,3 +18,13 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin CHAVE-SSH
+# Entrar no github, criar novo repositorio e copiar a chave HTTPS
+git remote rm origin
+git remote addorigin CHAVE-HTTPS
+ssh-keygen -f ~/.ssh/sergioshoji_rsa -t rsa -b 4096
+cat ~/.ssh/sergioshoji_rsa.pub
+# Copiar a chave enorme gerada.
+# Entrar no github, settings, ssh-keys, gerar nova chave ssh-key, colar a chave enorme e criar chave SSH.
+No github copiar a CHAVE-SSH
+git remote rm origin
+git remote add origin CHAVE-SSH
