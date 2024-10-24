@@ -30,3 +30,6 @@ No github copiar a CHAVE-SSH
 git remote rm origin
 git remote add origin CHAVE-SSH
 git push origin main -u
+
+
+// isto foi adicionado pelo windows
